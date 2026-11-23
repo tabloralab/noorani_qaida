@@ -1,0 +1,27 @@
+body {
+  font-family: "Anek Bangla", "Amiri";
+}
+
+.logo {
+  width: 180px;
+  height: auto;
+}
+.alphabet {
+  /* width: calc(100% / 6 - 12px); */
+  padding: 8px;
+  border: 1px solid #1cc1da;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.letter {
+  font-size: 2rem;
+}
+
+.alphabet.playing {
+  background: #ffdddd;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.7);
+  transition: 0.2s;
+}
